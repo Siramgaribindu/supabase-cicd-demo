@@ -20,3 +20,4 @@ jobs:
 
       - name: Supabase DB Push
         run: supabase db push --db-url ${{ secrets.SUPABASE_DB_URL }}
+
